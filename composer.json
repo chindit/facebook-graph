@@ -1,0 +1,26 @@
+{
+    "name": "chindit/facebook-graph",
+    "description": "A simple wrapper to access Facebook Graph API",
+    "type": "library",
+    "require": {
+        "symfony/dependency-injection": "^5.2",
+        "symfony/http-client": "^5.2",
+        "symfony/http-kernel": "^5.2"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.64"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chindit\\Bundle\\": "src/"
+        }
+    },
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "David Lumaye",
+            "email": "littletiger58@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
