@@ -2,13 +2,15 @@
     "name": "chindit/facebook-graph",
     "description": "A simple wrapper to access Facebook Graph API",
     "type": "library",
+    "version": "0.5",
     "require": {
+        "php": "^8.0",
         "symfony/dependency-injection": "^5.2",
         "symfony/http-client": "^5.2",
         "symfony/http-kernel": "^5.2"
     },
     "require-dev": {
-        "phpstan/phpstan": "^0.12.64"
+        "phpstan/phpstan": "^0.12.67"
     },
     "autoload": {
         "psr-4": {
